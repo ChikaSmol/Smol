@@ -3,6 +3,7 @@
   #This command line should fix after running in terminal
   sudo chown -R $USER /usr/local/lib/node_modules
   #sudo- runs command in roots, chown- to change ownership, -R $USER- changes ownership to system owner, last bit- root folder
+  - move floders: mv <folder to move> <destination>
   
 #How to deploy changes made locally to Org
   In text editor, add changes to staged changes, add commit message and commit
