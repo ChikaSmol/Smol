@@ -10,3 +10,18 @@
   In terminal use: "git push -u origin [branch name]" to create pull request
   For additional changes use: git push
   
+ #How to edit and add environment variables locally
+  #It can be done in zsch or bash but this is for zsch
+  call "cat ~/.zshrc" in terminal to chech if file exists
+  call:
+        open for edit:
+        vi ~/.zshrc
+        start editing:
+        *A
+        stop editing:
+        escape
+        exit without saving changes:
+        :q
+        exit saving changes:
+        :x
+    then add "export PATH=(variable)" and save
